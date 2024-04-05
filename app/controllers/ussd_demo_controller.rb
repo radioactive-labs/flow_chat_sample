@@ -5,6 +5,10 @@ class UssdDemoController < ApplicationController
     ussd_processor.run DemoFlow, :main_page
   end
 
+  def multiple_screens
+    ussd_processor.run MultipleScreensFlow, :main_page
+  end
+
   private
 
   def ussd_processor

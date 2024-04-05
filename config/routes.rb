@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   post "ussd_hello_world" => "ussd_demo#hello_world"
+  post "ussd_multiple_screens" => "ussd_demo#multiple_screens"
 
   get "ussd_simulator" => "ussd_simulator#ussd_simulator"
 
