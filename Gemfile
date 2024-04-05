@@ -65,3 +65,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "flow_chat", path: "/Users/stefan/code/plutonium/starters/vulcan/gems/flow_chat" #"~> 0.2.0"

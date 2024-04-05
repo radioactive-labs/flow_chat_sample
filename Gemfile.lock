@@ -1,3 +1,13 @@
+PATH
+  remote: /Users/stefan/code/plutonium/starters/vulcan/gems/flow_chat
+  specs:
+    flow_chat (0.2.0)
+      actionpack (>= 6)
+      activesupport (>= 6)
+      ibsciss-middleware (~> 0.4.2)
+      phonelib
+      zeitwerk
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -105,6 +115,7 @@ GEM
       activesupport (>= 6.1)
     i18n (1.14.4)
       concurrent-ruby (~> 1.0)
+    ibsciss-middleware (0.4.2)
     importmap-rails (2.0.1)
       actionpack (>= 6.0.0)
       activesupport (>= 6.0.0)
@@ -152,6 +163,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.16.3-x86_64-linux)
       racc (~> 1.4)
+    phonelib (0.8.8)
     psych (5.1.2)
       stringio
     public_suffix (5.0.5)
@@ -262,6 +274,7 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  flow_chat!
   importmap-rails
   jbuilder
   puma (>= 5.0)
